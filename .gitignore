@@ -1,0 +1,11 @@
+data_pipeline/raw/
+data_pipeline/*/synthetic/
+ml/models/*.pt
+ml/models/*.pth
+__pycache__/
+*.pyc
+.env
+node_modules/
+dashboard/dist/
+.DS_Store
+*.log
