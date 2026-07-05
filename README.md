@@ -177,7 +177,7 @@ python data_pipeline\augmentation\synthetic\generate_synthetic.py
 
 Uses Hugging Face Inference Providers to call FLUX.1-dev for text-to-image
 generation of synthetic minority-class (`drecro`) images. See
-[`docs/FINDINGS_AND_ROADMAP.md`](docs/FINDINGS_AND_ROADMAP.md) §2.1–2.2
+[`docs/FINDINGS_AND_ROADMAP.md`](docs/README.md) Section 2.1–2.2
 for an honest account of why this is text-to-image rather than the
 img2img-conditioned approach originally scoped, and what upgrading it
 would require.
