@@ -1,0 +1,59 @@
+{
+  "model": "resnet18_baseline_5fold",
+  "classes": [
+    "healthy",
+    "sclpgr",
+    "drecro"
+  ],
+  "per_class_report": {
+    "healthy": {
+      "precision": 0.9534883720930233,
+      "recall": 1.0,
+      "f1-score": 0.9761904761904762,
+      "support": 41.0
+    },
+    "sclpgr": {
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9285714285714286,
+      "support": 30.0
+    },
+    "drecro": {
+      "precision": 0.6363636363636364,
+      "recall": 0.7777777777777778,
+      "f1-score": 0.7,
+      "support": 9.0
+    },
+    "accuracy": 0.925,
+    "macro avg": {
+      "precision": 0.8632840028188865,
+      "recall": 0.8814814814814814,
+      "f1-score": 0.8682539682539682,
+      "support": 80.0
+    },
+    "weighted avg": {
+      "precision": 0.9352536997885836,
+      "recall": 0.925,
+      "f1-score": 0.9272619047619047,
+      "support": 80.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      41,
+      0,
+      0
+    ],
+    [
+      0,
+      26,
+      4
+    ],
+    [
+      2,
+      0,
+      7
+    ]
+  ],
+  "macro_f1": 0.8682539682539682
+}

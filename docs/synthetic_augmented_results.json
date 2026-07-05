@@ -1,0 +1,60 @@
+{
+  "model": "resnet18_synthetic_augmented_5fold",
+  "classes": [
+    "healthy",
+    "sclpgr",
+    "drecro"
+  ],
+  "per_class_report": {
+    "healthy": {
+      "precision": 1.0,
+      "recall": 0.9512195121951219,
+      "f1-score": 0.975,
+      "support": 41.0
+    },
+    "sclpgr": {
+      "precision": 1.0,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.9285714285714286,
+      "support": 30.0
+    },
+    "drecro": {
+      "precision": 0.6,
+      "recall": 1.0,
+      "f1-score": 0.75,
+      "support": 9.0
+    },
+    "accuracy": 0.925,
+    "macro avg": {
+      "precision": 0.8666666666666667,
+      "recall": 0.9392953929539295,
+      "f1-score": 0.8845238095238095,
+      "support": 80.0
+    },
+    "weighted avg": {
+      "precision": 0.9550000000000001,
+      "recall": 0.925,
+      "f1-score": 0.9322767857142857,
+      "support": 80.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      39,
+      0,
+      2
+    ],
+    [
+      0,
+      26,
+      4
+    ],
+    [
+      0,
+      0,
+      9
+    ]
+  ],
+  "macro_f1": 0.8845238095238095,
+  "num_synthetic_used": 3
+}

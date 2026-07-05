@@ -9,3 +9,4 @@ node_modules/
 dashboard/dist/
 .DS_Store
 *.log
+provenance_service/provenance.db
